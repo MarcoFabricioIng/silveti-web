@@ -1,10 +1,12 @@
 import Hero from './sections/Hero.jsx';
+import Navbar from './sections/NavBar.jsx';
 import './App.css'
 
 function App() {
   return (
      <div>
-      <Hero></Hero>
+      <Navbar />
+      <Hero />
     </div>
   
   );
