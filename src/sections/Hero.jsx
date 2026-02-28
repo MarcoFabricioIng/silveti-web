@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="hero-nombre">SILVETI</h1>
         <p className="hero-slogan">Cada historia merece un mejor final.</p>
         <div className="hero-botones">
-          <button className="btn-primario">Conoce su historia</button>
+          <button className="btn-primario">Conoce mas de mi.</button>
           <button className="btn-secundario">Súmate</button>
         </div>
       </div>

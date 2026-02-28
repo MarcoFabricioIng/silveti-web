@@ -1,5 +1,6 @@
 import Hero from './sections/Hero.jsx';
 import Navbar from './sections/NavBar.jsx';
+import Biografia from './sections/Biografia.jsx'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
      <div>
       <Navbar />
       <Hero />
+      <Biografia />
     </div>
   
   );

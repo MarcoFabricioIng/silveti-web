@@ -1,0 +1,40 @@
+.bio-container {
+  display: flex;
+  padding: 80px 60px;
+  background-color: var(--color-secondary);
+  text-align: start;
+}
+
+.bio-img {
+  width: 50%;
+  height: auto;
+  padding: 30px;
+  padding-right: 0%;
+  text-align: start;
+  border-radius: 12px;
+}
+
+.bio-parrafo {
+  width: 50%;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 60px;
+  text-align: start;
+}
+
+.bio-h2 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  color: var(--color-primary);
+  text-align: justify;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+  text-align: left;
+}
+.bio-p {
+  font-family: var(--font-body);
+  color: var(--color-dark);
+  padding-top: 5%;
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 1.8;
+}
