@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #C4622D;    /* Terracota */
+  --color-secondary: #FAF0E6;  /* Crema */
+  --color-accent: #6B7C3F;     /* Verde olivo */
+  --color-dark: #2C1810;       /* Café oscuro para textos */
+  --color-white: #FFFFFF;
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+}
