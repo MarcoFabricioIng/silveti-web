@@ -1,0 +1,31 @@
+.tarjeta-logro {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(114, 94, 202, 0.3);
+  padding: 25px 9px;
+  text-align: center;
+  line-height: 1.8;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.tarjeta-logro:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+.tarjetaLogro-icono {
+  font-size: 3.5rem;
+}
+.tarjetaLogro-numero {
+  font-size: 5rem;
+  color: var(--color-secondary);
+}
+
+.tarjetaLogro-desc {
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+  opacity: 0.85;
+}

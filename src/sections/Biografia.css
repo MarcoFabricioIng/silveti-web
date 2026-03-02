@@ -1,31 +1,42 @@
 .bio-container {
   display: flex;
-  padding: 80px 60px;
+  align-items: flex-start;
   background-color: var(--color-secondary);
-  text-align: start;
+  gap: 40px;
+}
+
+.caja {
+  width: 50%;
+  flex: 1; /* cada caja ocupa la mitad */
 }
 
 .bio-img {
-  width: 50%;
-  height: auto;
-  padding: 30px;
-  padding-right: 0%;
-  text-align: start;
+  width: 100%; /* ahora ocupa todo su contenedor */
   border-radius: 12px;
+  object-fit: cover;
+  padding-bottom: 0%;
 }
 
 .bio-parrafo {
-  width: 50%;
-  height: auto;
-  padding-top: 30px;
-  padding-left: 60px;
-  text-align: start;
+  width: 100%;
+  text-align: justify;
+  margin-top: 14%;
+  padding-right: 15%;
+  padding-left: 10%;
+
+  /*background: rgba(255, 255, 255, 0.08);*/
+}
+.caja:first-child {
+  flex: 0.8; /* imagen */
 }
 
+.caja:last-child {
+  flex: 1.2; /* texto */
+}
 .bio-h2 {
   font-family: var(--font-title);
   font-size: 3rem;
-  color: var(--color-primary);
+  color: var(--color-title-text);
   text-align: justify;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   text-align: left;

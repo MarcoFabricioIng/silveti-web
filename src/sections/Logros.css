@@ -1,0 +1,21 @@
+.logros-container {
+  padding: 80px 60px;
+  background-color: var(--color-dark);
+}
+
+.logros-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.logros-titulo {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font-family: var(--font-title);
+  font-size: 3rem;
+  color: var(--color-secondary);
+  margin-bottom: 16px;
+  text-align: center;
+}
